@@ -1,14 +1,14 @@
 package controller;
 import java.text.*;
-public class CalculateBMI
+ class CalculateBMI
  {
 
 
 		public static double calculate(double height, double weight)
 		 {
-            DecimalFormat df=new DecimalFormt("0.00");
+            DecimalFormat df=new DecimalFormat("0.00");
 		  double bmi = weight / (height * height);
-          bmi=df.format(bmi*10000);
+          bmi=Double.parseDouble(df.format(bmi*10000));
 		  return bmi;
 		}
 	  
