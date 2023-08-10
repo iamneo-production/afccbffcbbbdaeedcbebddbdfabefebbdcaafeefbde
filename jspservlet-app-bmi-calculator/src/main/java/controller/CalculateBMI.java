@@ -9,8 +9,6 @@ public class CalculateBMI {
 
         }
 
-       
-
         public static String description(double B) {
 
             if (B < 18.5) {
